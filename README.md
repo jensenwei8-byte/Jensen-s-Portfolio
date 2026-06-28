@@ -84,6 +84,17 @@ See:
 * `Bayland_Creator_Analysis.pbix`
 
 The Power BI dashboard allows the reviewer to select or drill through to a specific creator and review their raw KPIs, score breakdown, order quality, content efficiency, and final recommendation.
+### Category Filter
+
+![Category Filter](Dashboard%20Screenshot/Category%20filter)
+
+### Drill-through Function
+
+![Drill-through Function](Dashboard%20Screenshot/Drill%20through%20Function.png)
+
+### Hovering on Creator Profile
+
+![Hovering on Creator Profile](Dashboard%20Screenshot/Hovering%20on%20Creator%20Profile.png)
 
 ### Part 6 — Headline Recommendation
 
