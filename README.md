@@ -84,15 +84,21 @@ See:
 * `Bayland_Creator_Analysis.pbix`
 
 The Power BI dashboard allows the reviewer to select or drill through to a specific creator and review their raw KPIs, score breakdown, order quality, content efficiency, and final recommendation.
+
 ### Category Filter
+Select any category and the entire page will give information based on a specific category.
 
 ![Category Filter](Dashboard%20Screenshot/Category%20filter)
 
 ### Drill-through Function
 
+Click on drill-through button will jump to individual creator analysis page
+
 ![Drill-through Function](Dashboard%20Screenshot/Drill%20through%20Function.png)
 
 ### Hovering on Creator Profile
+
+provide different perspective into creator's selling power profile
 
 ![Hovering on Creator Profile](Dashboard%20Screenshot/Hovering%20on%20Creator%20Profile.png)
 
@@ -100,7 +106,7 @@ The Power BI dashboard allows the reviewer to select or drill through to a speci
 
 See:
 
-* Slide 1 of `Bayland_Creator_Recommendation.pptx`
+* Section 3 of `Bayland_Creator_Recommendation.doc`
 * Creator leaderboard in `Bayland_Creator_Analysis.pbix`
 
 The presentation leads with the recommendation for the Partnerships lead. It names the specific creators I would invest more in, test and grow, maintain, or step back from based on their Investment Priority Score and supporting KPIs.
@@ -121,10 +127,10 @@ The presentation leads with the recommendation for the Partnerships lead. It nam
 
 With more time, I would improve the analysis by adding:
 
-* Product margin data to measure profit, not only GMV
+* Integrate Power BI Copilot AI for faster insight generation. (Smart Narrative, Prep for AI)
 * Repeat purchase or customer retention data to estimate long-term creator value
 * Customer acquisition cost and free product seeding cost
-* More detailed attribution logic for orders influenced by multiple creators or channels
+* Analyze order-level data that could answer different question.
 * Time-window analysis to separate recent momentum from historical performance
 * Statistical confidence intervals to reduce small-sample bias
 * Creator audience demographics and content category fit
