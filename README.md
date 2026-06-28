@@ -11,8 +11,8 @@ The analysis evaluates creators using both sales scale and efficiency. Instead o
 | File                                  | Purpose                                                                                                                   |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | `Bayland_Creator_Analysis.pbix`       | Interactive Power BI dashboard for creator performance, ranking, investment decisions, and creator drill-through analysis |
-| `Bayland_Creator_Recommendation.pptx` | Stakeholder presentation covering data exploration, metric definition, and headline recommendations                       |
-| `analysis_notebook.ipynb`             | Data cleaning, exploration, joins, validation checks, and supporting analysis                                             |
+| `Bayland_Creator_Recommendation.doc`  | Stakeholder presentation covering data exploration, metric definition, and headline recommendations                       |
+| `Bayland_Creator_Recommendation.doc`  | Data cleaning, exploration, joins, validation checks, and supporting analysis                                             |
 | `wide_creator_analysis.csv`           | Final analysis table used for modeling and dashboarding                                                                   |
 | `cleaning_log.md`                     | Summary of data quality issues, cleaning decisions, and assumptions                                                       |
 | `README.md`                           | Instructions for reviewing the submission                                                                                 |
@@ -23,7 +23,7 @@ The analysis evaluates creators using both sales scale and efficiency. Instead o
 
 See:
 
-* `analysis_notebook.ipynb`
+* `Bayland_Creator_Recommendation.doc`
 * `cleaning_log.md`
 * `wide_creator_analysis.csv`
 
@@ -43,21 +43,24 @@ Open the `.pbix` file in Power BI Desktop. The main dashboard includes:
 * Investment Decision
 * Drill-through creator profile page
 * Creator Selling Power Profile / radar view
+* Radar chart tooltip
 
 ### Part 3 — Data Exploration
 
 See:
 
-* `analysis_notebook.ipynb`
-* `Bayland_Creator_Recommendation.pptx`
+* `Bayland_Creator_Recommendation.doc`
 
-The data exploration section reviews creator performance distribution, order status patterns, content performance, and key drivers of sales. The main finding is that creator performance is uneven, so Bayland should not rely on raw GMV alone when deciding where to invest.
+The data exploration section reviews creator performance distribution, order status patterns, content performance, and key drivers of sales. The main findings are: 
+* creator performance is uneven, so Bayland should not rely on raw GMV alone when deciding where to invest
+* not every orders can be traced back to creator
+* Video content is 91% of all the content type, it is the major GMV generator.
 
 ### Part 4 — Metric Definition and Justification
 
 See:
 
-* `Bayland_Creator_Recommendation.pptx`
+* `Bayland_Creator_Recommendation.doc`
 * `Bayland_Creator_Analysis.pbix`
 
 I define an **Investment Priority Score** using five normalized 0–100 percentile-based scores:
