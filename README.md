@@ -128,12 +128,12 @@ The presentation leads with the recommendation for the Partnerships lead. It nam
 With more time, I would improve the analysis by adding:
 
 * Integrate Power BI Copilot AI for faster insight generation. (Smart Narrative, Prep for AI)
-* Repeat purchase or customer retention data to estimate long-term creator value
-* Customer acquisition cost and free product seeding cost
+* Repeat purchase or customer retention data to estimate long-term creator value(If customer data could be provided)
+* Customer acquisition cost and free product seeding cost(If customer data could be provided)
 * Analyze order-level data that could answer different question.
 * Time-window analysis to separate recent momentum from historical performance
 * Statistical confidence intervals to reduce small-sample bias
-* Creator audience demographics and content category fit
+* Creator audience demographics and content category fit by analyzing state-level data.
 * A/B testing design for creators classified as “Test and Grow”
 
 ## AI Disclosure
